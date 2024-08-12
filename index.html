@@ -9,57 +9,23 @@
 </head>
 
 <body>
-   
- <main>  
-    <nav>
-        <button id="HOME" class="my-btn"><a href="index.html">HOME</a></button>
-    </nav> 
-    <br>
-    <h1>The Input Element</h1>
-    
-<form action="./">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
-</form>
-<br><br>
-<h1>Multiple Search Engine Forms</h1>
-<section>
-<form action="https://www.google.com/search" target="_blank">
-    <label for="google-search-input">Search Google:</label>
-    <input type="text" name="q" id="google-search-input">
-    <input type="submit" value="Search it!">
-</form>
-</section>
-<br><br>
-<form action="https://search.yahoo.com/web" target="_blank">
-    <label for="yahoo-search-input">Search Yahoo:</label>
-    <input type="text" name="q" id="yahoo-search-input">
-    <input type="submit" value="Search it!">
-</form>
-</section>
-<br><br>
-<form action="https://www.bing.com/?scope=web&cc=US" target="_blank">
-    <label for="bing-search-input">Search Bing:</label>
-    <input type="text" name="q" id="bing-search-input">
-    <input type="submit" value="Search it!">
-</form>
-</section>
-<br><br>
-<h2>Cats Cats Cats</h2>
-<a href="imgs/cats.jpg" w="200px">Link to Image</a>
-<br><br>
-<form action="imgs/cats.jpg">
-<br>
-    <input type="submit" value="Get Cats">
-    
-</form>
-</section>
+ <nav>
+    <button id="HOME" class="my-button" a href="index.html">HOME</a></button>
+ </nav>
+ <h1>Aria Accessibility</h1>
+ <p>ARIA enabled website</p>
+ <div>
+    <span>Username:</span>
+    <input type="text" aria-label="username"><button>Submit</button>
+ </div>
+ <br><br>
+ <div>
+    <label>Password: 
+    <input type="password">
+    </label>
+    <span role="button" href="#" class="my-button">Submit</span>
+ </div>
 
-
-</main>   
-    
 </body>
+
 </html>
